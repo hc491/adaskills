@@ -1,5 +1,4 @@
 h1 {
-  color: black;
   background-color: lightblue;
   text-align: center;
   font-size: 3rem;
@@ -11,15 +10,20 @@ h2 {
   margin-top: 100px;
 }
 
- li {
-    font-size: 1.5rem;
- }
-
-section {
-    margin-left: 10%;
-    margin-top: 30px;
+li {
+  font-size: 1.5rem;
 }
 
-input {
-    margin-left: 15%;
+section {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 1rem;
 }

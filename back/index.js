@@ -1,9 +1,11 @@
 require("dotenv").config();
 
 const express = require("express");
+const cors = require("cors");
 const { neon } = require("@neondatabase/serverless");
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 4242;
 //Connexion à la base de données
 const sql = neon(`${process.env.DATABASE_URL}`);
